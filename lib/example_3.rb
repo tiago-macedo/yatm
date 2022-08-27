@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Run with `./bin/console < lib/example_3.rb`
 
 m = YATM::Machine.new

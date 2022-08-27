@@ -32,6 +32,7 @@ class YATM::Tape
       @pos -= 1
       expand if table_pos > tape.size
     when YATM::NONE
+      # do nothing
     else
       raise InvalidMove
     end

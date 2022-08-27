@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# @abstract Subclass and override {#text} to set the default error message.
 class YATM::Error < StandardError
   def text
     raise NotImplementedError

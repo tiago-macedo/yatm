@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Run with `./bin/console < lib/example_2.rb`
 
 # This machine reads from position 0 towards the right until it finds a blank

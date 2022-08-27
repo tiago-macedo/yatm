@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Run with `./bin/console < lib/yatm/state_machine/example.rb`
 
 sm = YATM::StateMachine.new
